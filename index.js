@@ -1,7 +1,12 @@
 
 var GPS = {};
 // parse [ lat , long ]coordinates to MongoDB coordinates
-GPS.MongoDB = function(){
-	console.log("empezando la magia");
-}
+GPS.GMAPS = function(){
+	this.version = "v3";
+};
+var GMAPS = GPS.GMAPS;
+
+GMAPS.prototype.get = function(arg) {
+	return this[arg].toString() || undefined;
+}; 
 module.exports = GPS;
