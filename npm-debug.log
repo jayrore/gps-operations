@@ -10,7 +10,7 @@
 6 verbose stack Error: Git working directory not clean.
 6 verbose stack M index.js
 6 verbose stack D npm-debug.log
-6 verbose stack M package.json
+6 verbose stack M test/test.js
 6 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\version.js:138:37
 6 verbose stack     at ChildProcess.exithandler (child_process.js:735:7)
 6 verbose stack     at ChildProcess.emit (events.js:110:17)
@@ -26,7 +26,7 @@
 12 error Git working directory not clean.
 12 error M index.js
 12 error D npm-debug.log
-12 error M package.json
+12 error M test/test.js
 13 error If you need help, you may report this error at:
 13 error     <http://github.com/npm/npm/issues>
 14 verbose exit [ 1, true ]
