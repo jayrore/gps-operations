@@ -1,6 +1,6 @@
 {
   "name": "gps-ops",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "gps operations and database crud",
   "main": "index.js",
   "scripts": {
