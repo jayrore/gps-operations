@@ -1,0 +1,27 @@
+{
+  "name": "gps-ops",
+  "version": "0.0.1",
+  "description": "gps operations and database crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayrore/gps-operations.git"
+  },
+  "keywords": [
+    "gps",
+    "maps",
+    "mongodb"
+  ],
+  "author": "jayrore <jayrosalgado@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayrore/gps-operations/issues"
+  },
+  "homepage": "https://github.com/jayrore/gps-operations",
+  "dependencies": {
+    "mongoose": "^3.8.24"
+  }
+}
