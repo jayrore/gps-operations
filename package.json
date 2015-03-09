@@ -1,6 +1,6 @@
 {
   "name": "gps-ops",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "gps operations and database crud",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "mongoose": "^3.8.24"
   },
   "devDependencies": {
-  "chai": "*",
-  "mocha": "*"
-}
+    "chai": "*",
+    "mocha": "*"
+  }
 }
