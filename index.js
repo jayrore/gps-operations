@@ -6,6 +6,7 @@ GPS.GMAPS = function(){
 	this.get = function(attr){
 		return this[attr];
 	}
+	return this;
 };
 
 module.exports = GPS;

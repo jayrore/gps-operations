@@ -4,7 +4,8 @@
   "description": "gps operations and database crud",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,9 @@
   "homepage": "https://github.com/jayrore/gps-operations",
   "dependencies": {
     "mongoose": "^3.8.24"
-  }
+  },
+  "devDependencies": {
+  "chai": "*",
+  "mocha": "*"
+}
 }
